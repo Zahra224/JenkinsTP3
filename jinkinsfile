@@ -1,2 +1,6 @@
-hello
-
+stage('Deploy') {
+       steps {
+                echo "Etape de déploiement"
+		echo "si vous voyez ce message, ça veut dire que le buils s'est bien déroulé"
+	     }
+	        }
